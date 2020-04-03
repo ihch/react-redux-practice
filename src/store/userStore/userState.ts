@@ -7,8 +7,8 @@ export interface IUserState {
 }
 
 const initialState: IUserState = {
-    name: '',
-    email: ''
+    name: 'nemusou',
+    email: 'aaa@bbb.ccc'
 };
 
 export const userReducers = reducerWithInitialState(initialState)
