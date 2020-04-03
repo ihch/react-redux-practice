@@ -5,10 +5,8 @@ export type AppStore = {
     user: IUserState
 };
 
-const store = createStore(
+export const store = createStore(
     combineReducers<AppStore>({
         user: userReducers
     })
 );
-
-export default store;
